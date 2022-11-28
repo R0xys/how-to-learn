@@ -61,7 +61,7 @@
   width: 765px;
   height: 608px;
   z-index: 1;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .header__square-pic {
@@ -225,7 +225,7 @@
 }
 
 .kaufman__triangle {
-  background: url(../images/logo/kaufman-triangle.svg) 0 0;
+  background: url(../images/logo/kaufman-triangle.svg) 0 0;;
   width: 877px;
   height: 877px;
   position: absolute;
@@ -235,33 +235,32 @@
 }
 
 .footer {
-  min-height: 350px;
   background-color: #1f1f1f;
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
 }
 
 .footer__columns {
   padding: 60px 0 40px 0;
+  min-height: 350px;
   margin: 0px auto;
   width: 90%;
   display: flex;
   justify-content: space-between;
   height: 100%;
 }
+
 .footer__column {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
+
 .footer__column_content_copyright {
   flex-basis: 711px;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
-  background: url(../images/logo_place_footer.svg);
+  background: url(../images/logo/logo_place_footer.svg);
 }
 
 .footer__author {
@@ -279,7 +278,7 @@
 }
 
 .footer__column-links {
-  margin: 10px 0 16px 0;
+  margin: 20px 0 16px 0;
   display: flex;
   flex-direction: column;
 }
